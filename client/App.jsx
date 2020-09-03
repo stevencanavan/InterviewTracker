@@ -35,7 +35,6 @@ class App extends React.Component {
           <Route exact path='/' render={() => <Redirect to='/home' />} />
           <Route path='/home' component={Home} />
           <Route exact path='/feed' render={() => <Redirect to='/navbar' />} />
-          {/* component = privateRoute in PrivatRoute.jsx isLoggedIn will be in props */}
           <Route path='/navbar' component={Navbar} />
           <Route path='/profile' component={Profile} />
           <Route path='/search' component={Search} />

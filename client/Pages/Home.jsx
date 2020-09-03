@@ -22,11 +22,7 @@ function Home() {
   if (!isLoggedIn) {
     return <Login setLogin={setLogin} />;
   } else {
-    return (
-      <div>
-        <Navbar />
-      </div>
-    );
+    return <Navbar />;
   }
 }
 export default Home;

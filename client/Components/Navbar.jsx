@@ -19,6 +19,7 @@ function Navbar() {
           <li>Search</li>
         </Link>
       </nav>
+      <Feed />
     </div>
   );
 }
